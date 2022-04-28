@@ -1,4 +1,4 @@
-# restricts configuring Public IP on Cloud SQL
+# Restricts configuring Public IP on Cloud SQL
 
 resource "google_organization_policy" "restric_public_ip_Cloud_sql" {
   org_id = "orgID"  //input your GCP organization ID
